@@ -167,3 +167,41 @@ footer > p{
 	width: 100%;
 	text-align: center;
 }
+.disponivel ul li:
+width: 1000px;
+
+}
+
+.disponivel ul{
+
+}
+
+display: flex;
+
+justify-content: space-between;
+
+width: 1000px;
+
+margin: 20px;
+
+.disponivel ul li{
+
+list-style: none;
+
+background: red;
+
+color: white;
+
+padding: 4px 7px;
+
+font-size: 22px;
+
+border-radius: 7px;
+
+}
+
+.disponivel ul li:hover{
+
+background: black;
+
+}
