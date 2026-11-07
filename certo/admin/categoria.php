@@ -1,4 +1,12 @@
+
+
+
+<?php 
+	include('conexao.php');
+?>
+
 <!DOCTYPE html>
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +16,7 @@
   <body>
     <ul>
         <li><a href="categorias.html">Categorias</li>
-        <li><a href="filmes.html">Filmes</li>
+        <li><a href="filmes.html">Filmes</a></li>
     </ul>
     <main>
         <form>
@@ -19,3 +27,19 @@
     </main>
   </body>
 </html>
+
+<?php
+
+
+	if ($conn->query($sql)){
+
+echo "Gravou com sucessok!!!!!!"; 
+}
+ ?>
+
+ }else{
+
+ echo "Deu ruim"; 
+}
+ ?>
+
