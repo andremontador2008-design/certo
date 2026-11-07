@@ -10,6 +10,5 @@
 			die("Falha na conexão".$conexao-> connect_error);
 
 		}
-	echo "Conectou com sucesso!";
 ?>
 

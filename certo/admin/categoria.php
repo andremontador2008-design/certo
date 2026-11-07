@@ -29,17 +29,18 @@
 </html>
 
 <?php
+if(isset($_GET['salvar'])){
+  $nomeCategoria = $_GET['categoria'];
+  
+   $sql = "INSERT INTO categoria (nome) values ('$nomeCategoria')";
 
-
-	if ($conn->query($sql)){
+	if ($conexao->query($sql)){
 
 echo "Gravou com sucessok!!!!!!"; 
-}
- ?>
 
  }else{
 
  echo "Deu ruim"; 
-}
+}}
  ?>
 
